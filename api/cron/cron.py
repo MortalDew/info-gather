@@ -6,3 +6,5 @@ export default async function handler(request, response) {
  
   return response.json({ datetime: data.datetime });
 }
+
+#wtf am i doing
