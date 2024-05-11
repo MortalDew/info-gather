@@ -1,7 +1,7 @@
 {
   "crons": [
     {
-      "path": "/example/cron/cron.py",
+      "path": "/api/cron/cron.js",
       "schedule": "25 12 * * *"
     }
   ],
