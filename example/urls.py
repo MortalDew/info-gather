@@ -6,5 +6,5 @@ from example.views import index, update_data
 
 urlpatterns = [
     path('', index),
-    path('cron/', views.update_data(), name='cron'),
+    path('cron/', cron.cron.update_data(), name='cron'),
 ]
